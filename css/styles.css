@@ -137,7 +137,7 @@ a {
     
 }
 
-.button, .form-button{
+.button, .form-button, .modal-button{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     text-align: center;
@@ -148,7 +148,7 @@ a {
     cursor: pointer;
 
 }
-.container .button {
+.container .button, .modal-button {
     display: block;
     border: none;
     height: 56px;
@@ -162,7 +162,9 @@ a {
 
 }
 
-.button:hover, .button:active, .button:focus {
+.button:hover, .button:active, .button:focus, .modal-button:hover,
+.modal-button:active,
+.modal-button:focus {
     background-color: #404BBF;
 }
 
@@ -525,7 +527,10 @@ a {
 
 .form-button:hover,
 .form-button:active,
-.form-button:focus {
+.form-button:focus, 
+.modal-button:hover,
+.modal-button:active,
+.modal-button:focus {
     background-color: #404BBF;
 }
 .form-button .icon {
@@ -608,4 +613,8 @@ a {
 .container_modal .icon {
     display: flex;
     flex-direction: column;
+}
+.modal-button {
+    background-color: #4d5ae5;
+
 }

@@ -333,49 +333,7 @@
         </section>
     </main>
 
-    <div class="modal-overlay">
-        <div class="modal">
-            <form class="form_modal">
-                <fieldset class="container_modal">
-                    <legend class="legend_modal">
-                        Leave your contacts and we will call you back
-                    </legend>
-                    <label class="form-label">
-                        Name
-                        <input class="form-input" type="text" name="username"  />
-                        <span>
-                            <svg class="icon" width="12" height="12">
-                                <use href="./images/icons.svg#icon-person"></use>
-                            </svg>
-                        </span>
-                    </label>
-                    <label class="form-label">
-                        Phone
-                        <input class="form-input" type="tel" name="phone" />
-                        <a href="" class="link">
-                            <svg class="icon" width="12" height="12">
-                                <use href="./images/icons.svg#icon-tel"></use>
-                            </svg>
-                        </a>
-                    </label>
-                    <label class="form-label">
-                        Email
-                        <input class="form-input" type="email" name="email" />
-                        <a href="" class="link">
-                            <svg class="icon" width="12" height="12">
-                                <use href="./images/icons.svg#icon-email"></use>
-                            </svg>
-                        </a>
-                    </label>
-                    <label class="form-label">
-                    Comment
-                    <textarea class="comment-area" name="comment" placeholder="Text input" rows="5"></textarea>
-                    </label>
-                </fieldset>
-                <button type="submit" class="modal-button">Send</button>
-            </form>
-        </div>
-    </div>
+    
 
     <footer class="page-footer">
         <div class="container">
@@ -422,19 +380,60 @@
             <label class="form-label">
                 <input class="form-input" type="email" name="email" placeholder="E-mail" />
             </label>
-            <div class="button-submit">
-                <a href="" class="link">
-                    <svg class="icon" width="24" height="20">
-                        <use href="./images/icons.svg#icon-send"></use>
-                    </svg>
-                </a>
             <button class="form-button" type="submit">Subscribe
+                <svg class="icon" width="24" height="20">
+                    <use href="./images/icons.svg#icon-send"></use>
+                </svg>
             </button>
-            </div>
         </form>
         </div>
         </div>
     </footer>
+
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <form class="form_modal">
+                <fieldset class="container_modal">
+                    <legend class="legend_modal">
+                        Leave your contacts and we will call you back
+                    </legend>
+                    <label class="form-label">
+                        Name
+                        <input class="form-input" type="text" name="username" />
+                        <span>
+                            <svg class="icon" width="12" height="12">
+                                <use href="./images/icons.svg#icon-person"></use>
+                            </svg>
+                        </span>
+                    </label>
+                    <label class="form-label">
+                        Phone
+                        <input class="form-input" type="tel" name="phone" />
+                        <a href="" class="link">
+                            <svg class="icon" width="12" height="12">
+                                <use href="./images/icons.svg#icon-tel"></use>
+                            </svg>
+                        </a>
+                    </label>
+                    <label class="form-label">
+                        Email
+                        <input class="form-input" type="email" name="email" />
+                        <a href="" class="link">
+                            <svg class="icon" width="12" height="12">
+                                <use href="./images/icons.svg#icon-email"></use>
+                            </svg>
+                        </a>
+                    </label>
+                    <label class="form-label">
+                        Comment
+                        <textarea class="comment-area" name="comment" placeholder="Text input" rows="5"></textarea>
+                    </label>
+                </fieldset>
+                <button type="submit" class="modal-button">Send</button>
+            </form>
+        </div>
+    </div>
     
 </body>
 </html>

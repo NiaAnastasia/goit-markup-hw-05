@@ -567,8 +567,8 @@ a {
 }
 .modal {
     position: absolute;
-    top: 50%;     
-    left: 50%;
+    /* top: 50%;     
+    left: 50%; */
     border-radius: 4px;
     width: 408px;
     min-height: 584px;
@@ -622,7 +622,7 @@ a {
     margin-bottom: 8px;
 }
 
-.form-container .label-form, .check-container .label-form{
+.form-container .label-form, .check-container .label-form, .comment-container .label-form{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;

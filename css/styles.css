@@ -518,10 +518,11 @@ a {
 }
 .form-button {
     display: flex;
-    gap: 16px;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background: #4d5ae5;
     border: none;
@@ -538,7 +539,8 @@ a {
 }
 .form-button .icon {
     width: 24px;
-    height: 20px;
+    height: 24px;
+    margin-left: 16px;
 }
 
 .modal-overlay {
@@ -565,8 +567,8 @@ a {
 }
 .modal {
     position: absolute;
-    /* top: 50%;
-    left: 50%; */
+    top: 50%;     
+    left: 50%;
     border-radius: 4px;
     width: 408px;
     min-height: 584px;

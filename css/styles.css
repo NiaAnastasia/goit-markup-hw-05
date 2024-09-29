@@ -666,9 +666,11 @@ a {
     fill: none;
 }
 
-.input-container .user:focus-within {
+/* here i stopped */
+.input-container .user:focus  .input-container .icon {
     fill: #4D5AE5;
 }
+
 
 .comment-container {
     margin-bottom: 16px;
@@ -707,7 +709,7 @@ a {
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.check-box:checked .decoration-one {
+.check-container input[type="checkbox"]:checked + .decoration-one {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;

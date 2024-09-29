@@ -532,10 +532,8 @@ a {
 
 .form-button:hover,
 .form-button:active,
-.form-button:focus, 
-.modal-button:hover,
-.modal-button:active,
-.modal-button:focus {
+.form-button:focus 
+{
     background-color: #404BBF;
 }
 .form-button .icon {
@@ -654,9 +652,7 @@ a {
 .input-container .user:focus {
     border-color: #4D5AE5;
 }
-.form-container .input-container .icon {
-    fill: none;
-}
+
 .input-container .icon {
     position: absolute;
     left: 16px;
@@ -666,7 +662,13 @@ a {
     fill: none;
 }
 
+.form-container .input-container .icon {
+    fill: none;
+}
 
+.input-container .user:focus-within {
+    fill: #4D5AE5;
+}
 
 .comment-container {
     margin-bottom: 16px;

@@ -25,10 +25,6 @@ img {
 .text {
     margin-bottom: 8px;
 }
-.icon {
-    fill: none;
-}
-
 
 .container {
     max-width: 1158px;
@@ -663,12 +659,8 @@ a {
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    fill: none;
 }
 
-.form-container .input-container .icon {
-    fill: none;
-}
 
 .input-container .user:focus + .icon{
     fill: #4D5AE5;

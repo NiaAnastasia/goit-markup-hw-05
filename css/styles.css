@@ -670,7 +670,7 @@ a {
     fill: none;
 }
 
-.input-container .user:focus  .input-container .icon {
+.input-container .user:focus{
     fill: #4D5AE5;
 }
 

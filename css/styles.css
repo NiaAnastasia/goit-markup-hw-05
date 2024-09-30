@@ -655,6 +655,7 @@ a {
 
 .input-container .icon {
     position: absolute;
+    fill: #2e2f42;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
